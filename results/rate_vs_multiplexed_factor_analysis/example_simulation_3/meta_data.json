@@ -1,0 +1,24 @@
+{
+    "weight_params": {
+        "nb_neurons": 200,
+        "sigma_soma": 0.2,
+        "sigma_dendrite": 0.2,
+        "mu_soma": 2.0,
+        "mu_dendrite": 0.0,
+        "nb_dim_soma": 1,
+        "nb_dim_dendrite": 1,
+        "norm_distance": 1.0
+    },
+    "input_params": {
+        "tau_s": 10.0,
+        "tau_d": 10.0,
+        "I_s_amplitude": 1,
+        "I_d_amplitude": 1,
+        "nb_steps": 500,
+        "dt": 1.0
+    },
+    "data_params": {
+        "nb_spike_per_burst": 3,
+        "dt": 1.0
+    }
+}
